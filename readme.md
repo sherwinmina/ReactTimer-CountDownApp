@@ -1,1 +1,1 @@
-A Timer and Countdown  app
+Timer and Countdown app
