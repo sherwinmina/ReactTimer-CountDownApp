@@ -4,7 +4,7 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-     './app/app.jsx'
+    './app/app.jsx'
   ],
   externals: {
     jquery: 'jQuery'
@@ -23,16 +23,8 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
-      Nav: 'app/components/Nav.jsx',
-      Weather: 'app/components/Weather.jsx',
-      About: 'app/components/About.jsx',
-      Examples: 'app/components/Examples.jsx',
-      WeatherForm: 'app/components/WeatherForm.jsx',
-      WeatherMessage: 'app/components/WeatherMessage.jsx',
-      openWeatherMap: 'app/api/openWeatherMap.jsx',
-      ErrorModal: 'app/components/ErrorModal.jsx',
-      applicationStyles: 'app/styles/app.scss'
-
+      applicationStyles: 'app/styles/app.scss',
+      Navigation: 'app/components/Navigation.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
