@@ -2,7 +2,10 @@ var React = require('react');
 
 var About = (props) => {
   return (
-      <h3>new About Component</h3>
+    <div>
+      <h3>About </h3>
+      <p>This is a simple React Weather App</p>
+    </div>
   )
 };
 
